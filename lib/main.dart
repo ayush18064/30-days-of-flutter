@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:play/home_page.dart';
 
 void main() {
-  runApp(
-    const Center(
-      child: Text(
-        'Hello, world!',
-        textDirection: TextDirection.ltr,
-      ),
-    ),
-  );
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Homepage(),
+    );
+  }
 }
