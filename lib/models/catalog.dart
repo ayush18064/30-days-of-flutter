@@ -1,5 +1,18 @@
+class catalogModel {
+  static final items = [
+    Item(
+        id: 1,
+        name: "iPhone 12 Pro",
+        desc: "Apple iPhone 12th generation",
+        price: 999,
+        color: "#33505a",
+        imgUrl:
+            "https://www.techspot.com/images/products/2020/smartphones/org/2020-10-20-product.png")
+  ];
+}
+
 class Item {
-  final String id;
+  final num id;
   final String name;
   final String desc;
   final num price;
@@ -14,14 +27,3 @@ class Item {
       required this.color,
       required this.imgUrl});
 }
-
-final products = [
-  Item(
-      id: "Codepur001",
-      name: "iPhone 12 Pro",
-      desc: "Apple iPhone 12th generation",
-      price: 999,
-      color: "#33505a",
-      imgUrl:
-          "https://www.techspot.com/images/products/2020/smartphones/org/2020-10-20-product.png")
-];
