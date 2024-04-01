@@ -5,7 +5,7 @@ class Mythemes {
   static ThemeData lightTheme(BuildContext context) => ThemeData(
         brightness: Brightness.light,
         primarySwatch: Colors.deepPurple,
-        fontFamily: GoogleFonts.lato().fontFamily,
+        fontFamily: GoogleFonts.poppins().fontFamily,
         appBarTheme: const AppBarTheme(
           color: Colors.white,
           elevation: 0.0,
@@ -18,4 +18,8 @@ class Mythemes {
         brightness: Brightness.dark,
         iconTheme: const IconThemeData(color: Colors.black),
       );
+
+  // colors
+  static Color creamColor = const Color(0xfff5f5f5);
+  static Color darkBLue = const Color(0xff403b58);
 }
